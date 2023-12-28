@@ -110,7 +110,6 @@ if _name_ == '_main_':
 
 ```
 <br/>
-<br/>
 
 ## MobileRobot Movement Image:
 
@@ -118,12 +117,12 @@ if _name_ == '_main_':
 <br/>
 <br/>
 
-
 ## MobileRobot Movement Video:
 
 https://youtube.com/shorts/fH1QrrpZba4?feature=share
 <br/>
 <br/>
+
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
 <br/>
