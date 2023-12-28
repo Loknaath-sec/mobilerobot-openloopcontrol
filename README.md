@@ -14,12 +14,15 @@ Import the robot, time, and camera modules from the robomaster library to intera
 
 ### 2. Initialize the Robot:
 Create an instance of the robot.Robot() class to represent the robot.
+<br/>
 Initialize the robot's connection using ep_robot.initialize(conn_type="ap").
 
 ### 3. Access Robot Components:
 #### Create objects for the robot's chassis, LEDs, and camera:
 ep_chassis = ep_robot.chassis
+<br/>
 ep_led = ep_robot.led
+<br/>
 ep_camera = ep_robot.camera
 
 ### 4. Perform Actions:
@@ -27,6 +30,7 @@ ep_camera = ep_robot.camera
 Start streaming video from the robot's camera using ep_camera.start_video_stream(display=True, resolution=camera.STREAM_360P).
 #### Move and change LEDs:
 Execute a series of movements in a pre-defined pattern using ep_chassis.move().
+<br/>
 Simultaneously change LED colors using ep_led.set_led() to create visual effects.
 #### Stop video stream:
 After a delay of 4 seconds, stop the video stream using ep_camera.stop_video_stream().
