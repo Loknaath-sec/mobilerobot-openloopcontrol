@@ -10,29 +10,29 @@ To develop a python control code to move the mobilerobot along the predefined pa
 ## Procedure
 
 ### 1. Import Necessary Libraries:
-~ Import the robot, time, and camera modules from the robomaster library to interact with the robot's components.
+Import the robot, time, and camera modules from the robomaster library to interact with the robot's components.
 
 ### 2. Initialize the Robot:
-~ Create an instance of the robot.Robot() class to represent the robot.
-~ Initialize the robot's connection using ep_robot.initialize(conn_type="ap").
+Create an instance of the robot.Robot() class to represent the robot.
+Initialize the robot's connection using ep_robot.initialize(conn_type="ap").
 
 ### 3. Access Robot Components:
 #### Create objects for the robot's chassis, LEDs, and camera:
-~ ep_chassis = ep_robot.chassis
-~ ep_led = ep_robot.led
-~ ep_camera = ep_robot.camera
+ep_chassis = ep_robot.chassis
+ep_led = ep_robot.led
+ep_camera = ep_robot.camera
 
 ### 4. Perform Actions:
 #### Start video stream:
-~ Start streaming video from the robot's camera using ep_camera.start_video_stream(display=True, resolution=camera.STREAM_360P).
+Start streaming video from the robot's camera using ep_camera.start_video_stream(display=True, resolution=camera.STREAM_360P).
 #### Move and change LEDs:
-~ Execute a series of movements in a pre-defined pattern using ep_chassis.move().
-~ Simultaneously change LED colors using ep_led.set_led() to create visual effects.
+Execute a series of movements in a pre-defined pattern using ep_chassis.move().
+Simultaneously change LED colors using ep_led.set_led() to create visual effects.
 #### Stop video stream:
-~ After a delay of 4 seconds, stop the video stream using ep_camera.stop_video_stream().
+After a delay of 4 seconds, stop the video stream using ep_camera.stop_video_stream().
 
 ### 5. Close the Connection:
-~ Terminate the connection to the robot using ep_robot.close().
+Terminate the connection to the robot using ep_robot.close().
 
 
 ## Program
