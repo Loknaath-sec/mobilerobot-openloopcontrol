@@ -111,27 +111,17 @@ if _name_ == '_main_':
 ```
 
 ## MobileRobot Movement Image:
+![1](https://github.com/Loknaath-sec/mobilerobot-openloopcontrol/assets/145742558/fb779ae7-170a-4b04-85b6-be87de4cb230)
 
-![robo](./img/robomaster.png)
-
-Insert image here
+![WhatsApp Image 2023-12-28 at 15 58 41_63d4797a](https://github.com/Loknaath-sec/mobilerobot-openloopcontrol/assets/145742558/cebca8e3-666d-428e-8361-0152689f5cc1)
 
 
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## MobileRobot Movement Video:
 
-Upload your video in Youtube and paste your video-id here
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtube.com/shorts/fH1QrrpZba4?feature=share))
 
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
