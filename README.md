@@ -31,7 +31,7 @@ To develop a python control code to move the mobilerobot along the predefined pa
 #### Stop video stream:
   ~ After a delay of 4 seconds, stop the video stream using ep_camera.stop_video_stream().
 
-### Close the Connection:
+### 5. Close the Connection:
   ~ Terminate the connection to the robot using ep_robot.close().
 
 
